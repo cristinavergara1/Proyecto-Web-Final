@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ProductosController</servlet-name>
+        <servlet-class>controlador.ProductosController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ProductosController</servlet-name>
+        <url-pattern>/ProductosController</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <jsp-file>/index.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/index.jsp</url-pattern>
+</servlet-mapping>
+
+<filter>
+    <filter-name>SetCharacterEncodingFilter</filter-name>
+    <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+    <init-param>
+     <param-name>encoding</param-name>
+    <param-value>UTF-8</param-value>
+    </init-param>
+ </filter>
+    <filter-mapping>
+    <filter-name>SetCharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+ </filter-mapping>
+ 
+</web-app>

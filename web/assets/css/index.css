@@ -1,0 +1,97 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: white;
+}
+
+thead {
+  background-color: #306BAC;
+  font-weight: bold;
+}
+th {
+    text-align:center;
+  color: black;
+}
+th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
+h2{text-align: center;
+padding-top:20px;
+
+}
+
+
+
+button {
+            display: block;
+            width: 10%;
+            padding: 10px;
+            margin: 10px auto;
+            background-color: #306BAC;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: #6F9CEB;
+        }
+
+ .nr {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #306BAC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.nr a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nr:hover {
+    background-color: #6F9CEB;
+}
+
+
+

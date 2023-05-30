@@ -1,0 +1,48 @@
+  h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #141B41;
+}
+
+        form {
+            width: 300px;
+            margin: 0 auto; /* Center the form horizontally */
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #306BAC;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        button:hover {
+            background-color: #6F9CEB;
+        }
